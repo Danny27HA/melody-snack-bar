@@ -218,7 +218,9 @@
 
 .showcase {
   padding: 100px 0;
-  background: #efebe3;
+  background: rgba(17, 17, 17, 0.035);
+  border-top: 1px solid rgba(17, 17, 17, 0.06);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.06);
 }
 
 .gallery {
@@ -523,5 +525,10 @@ footer {
 
   .mobile-dock a + a {
     border-left: 1px solid rgba(255,255,255,.1);
+  }
+
+  .section::before {
+    inset: 10px 0;
+    border-radius: 26px;
   }
 }
